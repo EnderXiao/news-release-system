@@ -23,7 +23,6 @@ public class SqlData
         con = new SqlConnection(ConfigurationManager.AppSettings["ConnenctionStr"]);
         con.Open();
     }
-    // 下载于www.mycodes.net 
 
     public bool ExecuteSQL(string str)//执行SQL语句
     {
