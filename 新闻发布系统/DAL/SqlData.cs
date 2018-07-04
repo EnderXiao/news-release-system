@@ -18,7 +18,7 @@ public class SqlData
     public SqlData()
     {
         //
-        // TODO: 在此处添加构造函数逻辑
+        // 在此处添加构造函数逻辑
         //
         con = new SqlConnection(ConfigurationManager.AppSettings["ConnenctionStr"]);
         con.Open();
@@ -34,7 +34,7 @@ public class SqlData
         }
         catch (Exception e)
         {
-            throw (new Exception(e.Message));//抛出了一个异常。Exception例外。E.Message是异常信息的内容。关于catch()中的参数e: e就是发生异常的异常类对象，可以任意取名。不是必须叫e的。
+            throw (new Exception(e.Message));//抛出了一个异常。
 
             return false;
         }
@@ -44,7 +44,6 @@ public class SqlData
             con.Close();
         }
     }
-
 
     public DataSet ExecuteDateSet(string str)
     {
@@ -72,15 +71,14 @@ public class SqlData
             da.Fill(ds, tableName);
             return ds;
         }
-        finally                     //一般理解try……catch是异常捕获，try…… finally不管在前面定义的try语句中是否有异常或错误发生，都执行finally中语句。
-       
+        finally
         {
             con.Close();
         }
     }
 
-    public SqlDataReader ExecuteRead(string str)      //1.NewsDetail.aspx中用<%=GetContent()%> 将sdr内容显示在前台
-    {                                                 //2.Default.aspx.cs中执行查询
+    public SqlDataReader ExecuteRead(string str)
+    {                                                 
         cmd = new SqlCommand(str, con);
         SqlDataReader sdr = cmd.ExecuteReader();//返回一下数据流，从前往后
         return sdr;
