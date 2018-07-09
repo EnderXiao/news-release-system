@@ -1,0 +1,96 @@
+﻿.tempbody {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+    color: #606060;
+    font-size: 12px;
+}
+
+.tbody {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+/*内容*/
+.middle {
+    width: 90%;
+}
+
+/*底部*/
+.footer {
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    clear: both;
+    border-top: solid 2px #6AC0FF;
+    background-color: #66ccff;
+}
+
+
+/* 未访问前的样式 */
+A:link {
+    color: #606060;
+    font-size: 12px;
+    text-decoration: none;
+}
+/* 鼠标激活样式 */
+A:visited {
+    color: #606060;
+    font-size: 12px;
+    text-decoration: none;
+}
+/* 鼠标悬停时的样式 */
+A:hover {
+    color: #009966;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.wishTop {
+    height: 136px;
+    background-color: #66ccff;
+    margin: 0px;
+    padding: -1px;
+}
+
+.titleSystemName {
+    padding-top: 30px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #009966;
+    text-align: center;
+}
+
+/*默认页面*/
+.dtab1 {
+    height: 166px;
+    width: 100%;
+}
+
+.dtr1 {
+    height: 30px;
+    background-color: #66ccff;
+    text-align: left;
+}
+
+.dtd1 {
+    width: 50%;
+}
+
+.dtd2 {
+    width: 450px;
+    height: 20px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.more {
+    float: right;
+    margin-right: 8px;
+    color: White;
+}

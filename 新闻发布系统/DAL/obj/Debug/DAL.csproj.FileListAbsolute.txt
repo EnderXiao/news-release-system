@@ -1,0 +1,9 @@
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\DAL\bin\Debug\DAL.dll
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\DAL\bin\Debug\DAL.pdb
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\DAL\bin\Debug\MODELS.dll
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\DAL\bin\Debug\MODELS.pdb
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\DAL\obj\Debug\DAL.dll
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\DAL\obj\Debug\DAL.pdb

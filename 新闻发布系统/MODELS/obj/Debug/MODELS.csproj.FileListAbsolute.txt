@@ -1,0 +1,6 @@
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\MODELS\bin\Debug\MODELS.dll
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\MODELS\bin\Debug\MODELS.pdb
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\MODELS\obj\Debug\MODELS.csprojAssemblyReference.cache
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\MODELS\obj\Debug\MODELS.csproj.CoreCompileInputs.cache
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\MODELS\obj\Debug\MODELS.dll
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\MODELS\obj\Debug\MODELS.pdb
