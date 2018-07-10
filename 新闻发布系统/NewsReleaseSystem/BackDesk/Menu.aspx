@@ -29,7 +29,7 @@
     </style>
 </head>
 <body>
-    <div width="100%" align="right">
+    <div width="100%">
     <form id="form1" runat="server">
         <div class="main">
             <table style="width: 180px;border: solid 1px #6AC0FF;" cellspacing="0" cellpadding="0">

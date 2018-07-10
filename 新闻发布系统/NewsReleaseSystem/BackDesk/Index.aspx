@@ -7,13 +7,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
-<frameset rows="8%,*" frameborder="NO" border="0" framespacing="0" topmargin="0"
-    leftmargin="0" marginheight="0" marginwidth="0">
-    <frame name="top" scrolling="no" noresize src="head.html" border="0" frameborder="no"
-        topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" />
-    <frameset id="frame" framespacing="0" border="false" cols="29.9%,*" frameborder="0">
-        <frame name="menu" scrolling="no" marginheight="0" marginwidth="0" src="Menu.aspx" />
-        <frame name="right" scrolling="no" marginheight="0" marginwidth="0" src="Main.aspx" />
-	</frameset>
-</frameset>
+<body>
+    <div style="height: 50px;width: 1000px;margin: 0 auto;">
+        <iframe name="top" src="head.html" frameborder="NO" width="100%" border="0" framespacing="0" topmargin="0"
+            leftmargin="0" marginheight="0" marginwidth="0" scrolling="no" height="50px;"></iframe>
+    </div>
+    <div style="width: 1000px;height: 600px;margin: 0 auto;margin-top: 10px;">
+        <div style="width: 190px;float: left;">
+            <iframe name="menu" src="Menu.aspx" frameborder="NO" width="190px" border="0" framespacing="0" topmargin="0"
+                leftmargin="0" marginheight="0" marginwidth="0" scrolling="no" height="590px"></iframe>
+        </div>
+        <div style="width: 810px;height: 580px;float: left;">
+            <iframe name="right" src="Main.aspx" frameborder="NO" width="810px" height="580px" border="0" framespacing="0" topmargin="0"
+                leftmargin="0" marginheight="0" marginwidth="0"></iframe>
+        </div>
+    </div>
+</body>
 </html>

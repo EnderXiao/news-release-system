@@ -13,7 +13,7 @@
         }
         body
         {
-            width: 810px;
+            width: 808px;
             color: #606060;
             font-size: 12px;
             border: solid 1px #6AC0FF;
@@ -36,7 +36,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <table width="810px">
+            <table width="808px">
                 <tr>
                     <td class="style1 " colspan="3">
                         <div class="titleSystemName">
@@ -96,7 +96,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" style="text-align: center;padding-left: 80px;">
+                    <td colspan="2" style="text-align: center;padding-left: 90px;">
                         <asp:Label ID="lblMessage" runat="server"></asp:Label>
                     </td>
                 </tr>

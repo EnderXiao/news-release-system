@@ -13,7 +13,6 @@
             text-align: center;
             color: #606060;
             font-size: 12px;
-            margin-left: 15px;
         }
         td
         {

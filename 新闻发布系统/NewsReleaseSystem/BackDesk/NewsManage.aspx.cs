@@ -40,6 +40,7 @@ namespace NewsReleaseSystem.BackDesk
         protected void SelectBind()
         {
             string sqlStr = "select * from tb_News where Categories='" + this.ddlNewsCategories.SelectedValue.ToString() + "'";
+            sqlStr += "and ((content like '%" + this.txtKey.Text + "%') or (Title like '%" + this.txtKey.Text + "%'))";
             gvdNews.DataSource = Bll.GetDataSet(sqlStr);
             gvdNews.DataKeyNames = new string[] { "id" };
             gvdNews.DataBind();
