@@ -58,7 +58,7 @@ namespace NewsReleaseSystem.BackDesk
             this.username.Text = "";
             this.pwd.Text = "";
             this.lblMessage.Text = "";
-            Response.Redirect("~/BackDesk/Index.aspx");
+            Response.Redirect("~/BackDesk/NewsManage.aspx");
         }
     }
 }
