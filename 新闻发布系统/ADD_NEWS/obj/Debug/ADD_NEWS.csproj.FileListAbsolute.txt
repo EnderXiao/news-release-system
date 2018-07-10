@@ -1,0 +1,12 @@
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\ADD_NEWS\bin\Debug\ADD_NEWS.exe.config
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\ADD_NEWS\bin\Debug\ADD_NEWS.exe
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\ADD_NEWS\bin\Debug\ADD_NEWS.pdb
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\ADD_NEWS\bin\Debug\DAL.dll
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\ADD_NEWS\bin\Debug\Newtonsoft.Json.dll
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\ADD_NEWS\bin\Debug\DAL.pdb
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\ADD_NEWS\bin\Debug\Newtonsoft.Json.xml
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\ADD_NEWS\obj\Debug\ADD_NEWS.csprojAssemblyReference.cache
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\ADD_NEWS\obj\Debug\ADD_NEWS.csproj.CoreCompileInputs.cache
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\ADD_NEWS\obj\Debug\ADD_NEWS.csproj.CopyComplete
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\ADD_NEWS\obj\Debug\ADD_NEWS.exe
+G:\Study\ASP.NET\项目\新闻发布系统\新闻发布系统\ADD_NEWS\obj\Debug\ADD_NEWS.pdb

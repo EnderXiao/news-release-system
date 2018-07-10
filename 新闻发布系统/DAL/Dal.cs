@@ -37,5 +37,18 @@ namespace DAL
             bool bl = sql.ExecuteSQL(sqlStr);
             return bl;
         }
+
+        public static bool Add_news(string title, string time, string content)
+        {
+            SqlData sql = new SqlData();
+            string sqlStr = @"INSERT INTO tb_News VALUES
+                            ('" + title.Trim() + "'," +
+                            "'" + content + "'," +
+                            "'" + "娱乐综艺" + "'," +
+                            "'" + "国内新闻" + "'," +
+                            "'" + time + "')";
+            bool bl = sql.ExecuteSQL(sqlStr);
+            return bl;
+        }
     }
 }

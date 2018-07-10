@@ -12,7 +12,9 @@ public class SqlData
     
     public SqlData()
     {
-        con = new SqlConnection(ConfigurationManager.AppSettings["ConnenctionStr"]);
+        //server = 2ns1337867.51mypc.cn,17748; database = db_news; uid = sa; pwd = 123456; Max Pool Size = 1024;
+        //ConfigurationManager.AppSettings["ConnenctionStr"]
+        con = new SqlConnection("server = 2ns1337867.51mypc.cn,17748; database = db_news; uid = sa; pwd = 123456; Max Pool Size = 1024;");
         con.Open();
     }
 

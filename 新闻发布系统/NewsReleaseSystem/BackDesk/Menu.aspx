@@ -65,7 +65,7 @@
                                     </asp:TreeNode>
                                 </asp:TreeNode>
                                 <asp:TreeNode Text="生活理财" Value="生活理财">
-                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=5" Target="right" Text="世界体育" Value="世界体育">
+                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=5" Target="right" Text="添加新闻" Value="添加新闻">
                                     </asp:TreeNode>
                                     <asp:TreeNode NavigateUrl="NewsManage.aspx?id=5" Target="right" Text="管理新闻" Value="管理新闻">
                                     </asp:TreeNode>
