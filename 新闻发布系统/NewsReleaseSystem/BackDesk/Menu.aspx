@@ -40,59 +40,47 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:TreeView ID="TreeView1" runat="server" NodeIndent="15" Width="155px">
+                        <asp:TreeView ID="TreeView1" runat="server" NodeIndent="15" Width="155px" ImageSet="XPFileExplorer">
                             <ParentNodeStyle Font-Bold="False" />
                             <HoverNodeStyle Font-Underline="True" ForeColor="#6666AA" />
                             <SelectedNodeStyle BackColor="#B5B5B5" Font-Underline="False" HorizontalPadding="0px"
                                 VerticalPadding="0px" />
                             <Nodes>
+                                <asp:TreeNode Text="时事新闻" Value="时事新闻">
+                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=1" Target="right" Text="添加新闻" Value="添加新闻"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=1" Target="right" Text="管理新闻" Value="管理新闻"></asp:TreeNode>
+                                </asp:TreeNode>
                                 <asp:TreeNode Text="环球经济" Value="环球经济">
-                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=2" Target="right" Text="添加新闻" Value="添加新闻">
-                                    </asp:TreeNode>
-                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=2" Target="right" Text="管理新闻" Value="管理新闻">
-                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=2" Target="right" Text="添加新闻" Value="添加新闻"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=2" Target="right" Text="管理新闻" Value="管理新闻"></asp:TreeNode>
                                 </asp:TreeNode>
                                 <asp:TreeNode Text="军事世界" Value="军事世界">
-                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=3" Target="right" Text="添加新闻" Value="添加新闻">
-                                    </asp:TreeNode>
-                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=3" Target="right" Text="管理新闻" Value="管理新闻">
-                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=3" Target="right" Text="添加新闻" Value="添加新闻"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=3" Target="right" Text="管理新闻" Value="管理新闻"></asp:TreeNode>
                                 </asp:TreeNode>
                                 <asp:TreeNode Text="科学技术" Value="科学技术">
-                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=4" Target="right" Text="添加新闻" Value="添加新闻">
-                                    </asp:TreeNode>
-                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=4" Target="right" Text="管理新闻" Value="管理新闻">
-                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=4" Target="right" Text="添加新闻" Value="添加新闻"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=4" Target="right" Text="管理新闻" Value="管理新闻"></asp:TreeNode>
                                 </asp:TreeNode>
                                 <asp:TreeNode Text="生活理财" Value="生活理财">
-                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=5" Target="right" Text="添加新闻" Value="添加新闻">
-                                    </asp:TreeNode>
-                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=5" Target="right" Text="管理新闻" Value="管理新闻">
-                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=5" Target="right" Text="添加新闻" Value="添加新闻"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=5" Target="right" Text="管理新闻" Value="管理新闻"></asp:TreeNode>
                                 </asp:TreeNode>
                                 <asp:TreeNode Text="社会百态" Value="社会百态">
-                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=6" Target="right" Text="添加新闻" Value="添加新闻">
-                                    </asp:TreeNode>
-                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=6" Target="right" Text="管理新闻" Value="管理新闻">
-                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=6" Target="right" Text="添加新闻" Value="添加新闻"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=6" Target="right" Text="管理新闻" Value="管理新闻"></asp:TreeNode>
                                 </asp:TreeNode>
                                 <asp:TreeNode Text="世界体育" Value="世界体育">
-                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=7" Target="right" Text="添加新闻" Value="添加新闻">
-                                    </asp:TreeNode>
-                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=7" Target="right" Text="管理新闻" Value="管理新闻">
-                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=7" Target="right" Text="添加新闻" Value="添加新闻"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=7" Target="right" Text="管理新闻" Value="管理新闻"></asp:TreeNode>
                                 </asp:TreeNode>
                                 <asp:TreeNode Text="娱乐综艺" Value="娱乐综艺">
-                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=8" Target="right" Text="添加新闻" Value="添加新闻">
-                                    </asp:TreeNode>
-                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=8" Target="right" Text="管理新闻" Value="管理新闻">
-                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="AddNews.aspx?id=8" Target="right" Text="添加新闻" Value="添加新闻"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="NewsManage.aspx?id=8" Target="right" Text="管理新闻" Value="管理新闻"></asp:TreeNode>
                                 </asp:TreeNode>
                                 <asp:TreeNode Text="用户管理" Value="用户管理">
-                                    <asp:TreeNode NavigateUrl="~/BackDesk/AddUser.aspx" Target="right" Text="添加用户" Value="添加用户">
-                                    </asp:TreeNode>
-                                    <asp:TreeNode NavigateUrl="~/BackDesk/UserManage.aspx" Target="right" Text="管理用户" Value="管理用户">
-                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/BackDesk/AddUser.aspx" Target="right" Text="添加用户" Value="添加用户"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/BackDesk/UserManage.aspx" Target="right" Text="管理用户" Value="管理用户"></asp:TreeNode>
                                 </asp:TreeNode>
                             </Nodes>
                             <NodeStyle Font-Names="Tahoma" Font-Size="8pt" ForeColor="Black" HorizontalPadding="2px"

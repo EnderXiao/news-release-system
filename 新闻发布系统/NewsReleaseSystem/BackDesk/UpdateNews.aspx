@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UpdateNews.aspx.cs" Inherits="NewsReleaseSystem.BackDesk.UpdateNews" %>
+﻿<%@ Page Language="C#" validateRequest="false" AutoEventWireup="true" CodeBehind="UpdateNews.aspx.cs" Inherits="NewsReleaseSystem.BackDesk.UpdateNews" %>
 
 <!DOCTYPE html>
 

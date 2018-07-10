@@ -57,7 +57,7 @@ namespace NewsReleaseSystem
             DataSet ds = Bll.GetDataSet(sqlstring, "tbNews");
             pds.DataSource = ds.Tables["tbNews"].DefaultView;
             pds.AllowPaging = true;
-            pds.PageSize = 5;
+            pds.PageSize = 10;
             pds.CurrentPageIndex = currentPage - 1;
             this.firstPage.Enabled = true;
             this.frontPage.Enabled = true;

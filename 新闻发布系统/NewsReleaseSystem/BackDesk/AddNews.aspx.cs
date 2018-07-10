@@ -72,7 +72,7 @@ namespace NewsReleaseSystem.BackDesk
         {
             this.txtNewsContent.Text = "";
             this.txtNewsTitle.Text = "";
-            Response.Redirect("~/BackDesk/Index.aspx");
+            Response.Redirect("~/BackDesk/NewsManage.aspx");
         }
     }
 }
